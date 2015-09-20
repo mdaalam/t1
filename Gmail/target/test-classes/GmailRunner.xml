@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CNN App running on Firefox Browser">
+
+    <parameter name="useSauceLab" value="false"/>
+    <parameter name="userName" value="kashifahasan"/>
+    <parameter name="key" value="04837d50-6769-4ad4-9006-70d3f2a012f9"/>
+    <parameter name="appUrl" value="https://gmail.com"/>
+
+    <parameter name="os" value="Windows 8"/>
+    <parameter name="browserName" value="firefox"/>
+    <parameter name="browserVersion" value="39.0"/>
+
+    <test name="Home Page">
+        <classes>
+            <class name="GmailLogin"/>
+
+        </classes>
+
+    </test>
+
+
+
+</suite>

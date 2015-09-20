@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Chase App running on Firefox Browser">
+
+    <parameter name="useSauceLab" value="false"/>
+    <parameter name="userName" value="mdalam"/>
+    <parameter name="key" value="662b4ed7-1a59-4ab2-ae8c-2dfe1e32f4aa"/>
+    <parameter name="appUrl" value="https://www.buncee.com"/>
+    <parameter name="os" value="mac"/>
+    <parameter name="browserName" value="chrome"/>
+    <parameter name="browserVersion" value="45.0.2454.93"/>
+
+
+
+
+
+
+    <test name="Home Page">
+        <classes>
+            <!--&lt;!&ndash;<class name="SignupTest"/>-->
+            <class name="SigninTest"/>
+            <!--<class name="CreateBunceeTest"/>-->
+            <!--<class name="SignoutTest"/>-->
+            <!--<class name="EmailBunceeTest"/>-->
+            <!--<class name="DownloadPdfTest"/>-->
+            <!--<class name="LikeBunceeTest"/>-->
+            <!--<class name="CommentBunceeTest"/>&ndash;&gt;-->
+            <!--<class name="ShareInFacebookTest"/>-->
+            <!--<class name="DeleteBunceeTest"/>-->
+
+        </classes>
+    </test>
+
+
+</suite>
+
